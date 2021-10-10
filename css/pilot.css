@@ -11082,14 +11082,7 @@ button.bg-slack:focus {
 
 .mb-0,
 .my-0 {
-    margin-bottom: 0;
-}
-
-@media (max-width: 468px) {
-    .mb-0,
-    .my-0 {
-        margin-bottom: 3rem;
-    }
+    margin-bottom: 0 !important;
 }
 
 .ml-0,
@@ -11583,7 +11576,7 @@ button.bg-slack:focus {
 
 .pt-6,
 .py-6 {
-    padding-top: 5rem; 
+    padding-top: 5rem !important;
 }
 
 .pr-6,
@@ -25474,11 +25467,6 @@ button.section-slack:focus {
     .section-lg {
         padding-top: 8rem;
         padding-bottom: 8rem;
-    }
-
-    .section-project-lg {
-        padding-top: 8rem;
-        padding-bottom: 0rem; 
     }
 
     .section-sm {
